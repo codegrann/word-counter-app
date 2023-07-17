@@ -10,3 +10,7 @@ body{
 #counter{
     margin: 5% auto;
 }
+textarea{
+    border: 2px solid rgb(206, 202, 202);
+    border-radius: 0.5rem;
+}
