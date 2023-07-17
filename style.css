@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+}
+#counter{
+    margin: 5% auto;
+}
+textarea{
+    border: 2px solid rgb(206, 202, 202);
+    border-radius: 0.5rem;
+}
