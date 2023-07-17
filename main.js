@@ -6,7 +6,9 @@ function updateCounter(e){
     let wordCount=document.querySelector('#words');
     let charCount=document.querySelector('#characters');
     let sentence=e.target.value;
+    let regex=/\s*(\w+ | \W+)\s*/g;
     charCount.textContent=sentence.length;
+    wordCount.textContent=regex.test(sentence)? sentence.match(regex).length:0;
 
     console.log(sentence);
 }
