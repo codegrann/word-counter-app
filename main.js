@@ -6,5 +6,4 @@ text.addEventListener('click', updateCounter);
 
 function updateCounter(){
     text.style.backgroundColor='red';
-    text.innerHTML='<p>Am clicked</p>';
 }
